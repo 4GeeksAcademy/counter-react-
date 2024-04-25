@@ -1,12 +1,77 @@
+.counter-container {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .counter {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 80px;
+    display: flex; 
+  }
+  
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+  }
+  
+  .button-reset {
+    background-color: #a3c3a3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
 
-/* 
+  .button-start {
+    background-color: #d597bf;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button-stop {
+    background-color: #92c3e2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+  }
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+  .button-start:hover {
+    background-color: #b884a5;
+  }
+ 
+  .button-stop:hover {
+    background-color: #7492a3;
+  }
+ 
+  .button-reset:hover {
+    background-color: #739777;
+  }
+ 
