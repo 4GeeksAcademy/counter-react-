@@ -17,7 +17,7 @@ const SecondsCounter = ({ seconds }) => {
     return () => clearInterval(interval);
   }, [running]);
 
-  useEffect(() => {// 1  >> "1".padStart(6,"0")  >>>   "000001"   >>  523 >>>  "000523"  75623    "075623"
+  useEffect(() => {
     let newDigit = counter.toString().padStart(6, "0").split("");
     setDigits(newDigit);
   }, [counter]);
